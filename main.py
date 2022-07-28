@@ -4,14 +4,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # My Config
-login = 'pauloviana089@gmail.com'
+login = ''
 password = ''
 # Host and Port is a pattern of google
 host = 'smtp.gmail.com'
 port = '587'
 
 # Email Config
-recipients = ['pauloviana089@gmail.com', 'pauloviana0892@gmail.com']
+recipients = ['', '']
 message = input("A message for sending: ")
 
 
